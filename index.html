@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Offer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="popup">
+        <span class="close-btn">&times;</span>
+        <div class="icon">🎄</div>
+        <h2>Merry Christmas!</h2>
+        <p>You completed all your December's tasks, so we decided to get you a gift:</p>
+        <p class="highlight">50% off on your Yearly Premium Plan</p>
+        <a href="#" class="btn">Get Your Gift</a>
+    </div>
+
+    <script>
+        // Close button functionality
+        document.querySelector('.close-btn').addEventListener('click', function() {
+            document.querySelector('.popup').style.display = 'none';
+        });
+    </script>
+</body>
+</html>
